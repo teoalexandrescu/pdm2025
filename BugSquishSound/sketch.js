@@ -127,7 +127,7 @@ function draw() {
 
       let timeElapsed = 30 - time;
       if (Math.floor(timeElapsed) % 5 === 0) { 
-        let newBPM = 100 + Math.floor(timeElapsed/5)*24;
+        let newBPM = 100 + Math.floor(timeElapsed/5)*22;
         if (Tone.Transport.bpm.value !== newBPM) {  
           Tone.Transport.bpm.value = newBPM;  
       }
